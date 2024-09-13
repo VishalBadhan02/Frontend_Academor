@@ -1,0 +1,61 @@
+@media screen and (max-width:640px) {
+    .column {
+        width: 100%;
+    }
+
+    .row-1 {
+        width: 100%;
+    }
+
+    .head {
+        background-color: rgb(240, 173, 49);
+    }
+
+    .college {
+        background-color: rgb(244, 223, 157);
+    }
+
+    .inner_form {
+        padding: 30px 15px;
+    }
+
+    .pc_media {
+        margin: 50px 0px 100px 0px;
+    }
+
+    .kshitij {
+        display: none;
+    }
+}
+
+@media screen and (min-width:640px) {
+    .column {
+        width: 50%;
+    }
+
+    .head {
+        background-color: rgb(240, 173, 49);
+    }
+
+    .row-1 {
+        width: 100%;
+        display: flex;
+    }
+
+    .college {
+        background-color: rgb(224, 194, 106);
+    }
+
+    .pc_media {
+        margin: 100px 0px 100px 0px;
+    }
+
+    .inner_form {
+        padding: 50px;
+    }
+
+    .kshitij_pc {
+        display: none;
+    }
+
+}
